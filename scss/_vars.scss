@@ -1,0 +1,44 @@
+:root {
+  //--Color 
+  --background-color: #fafafa;
+  --button-color: #FE4610;
+  --decor-color: #FFE1D8;
+  --title-color: #001F29;
+  --text-color: #B9C0C1;
+  --white-color: #fff;
+  --logo-color: #F75532;
+
+  //--Font
+  --title-font: 1.2rem;
+  --h3-title: 1rem;
+  --normal-font: .915rem;
+  --text-font: .835rem;
+  --small-font: .75rem;
+
+}
+
+@media screen and (min-width: 1152px) {
+  :root {
+    --title-font: 1.5rem;
+    --h3-title: 1.2rem;
+    --normal-font: 1rem;
+    --text-font: .915rem;
+    --small-font: .835rem;
+  }
+}
+
+.button {
+  background-color: var(--button-color);
+  color: var(--white-color);
+  font-size: var(--normal-font);
+  border-radius: 10px;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--title-color);
+  font-size: var(--title-font);
+  font-weight: 500;
+}
